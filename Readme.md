@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Владислав Смирнов](https://up.htmlacademy.ru/adaptive/18/user/686409).
-* Наставник: `Неизвестно`.
+* Наставник: `Анна Рвачева`.
 
 ---
 
