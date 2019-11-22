@@ -15,81 +15,73 @@
       </button>
     </header>
 
-    <h1>Подбор программы</h1>
-    <h2>Заполните анкету и мы подберем 
+    <h1 class="cat-title">Подбор программы</h1>
+    <h2 class="cat-subtitle">Заполните анкету и мы подберем 
         программу питания для вашего кота</h2>
-    <form>
-    <section>
-      <label class="">
-          Имя:*
-        <input class="" type="text" placeholder="Барсик">
-      </label>
-      <label class="">
-          Вес (кг):*
-        <input class="" type="text" placeholder="7">
-      </label>
-      <label class="">
-          Возраст (лет):
-        <input class="" type="text" placeholder="7">
-      </label>
-    </section>
-    <section>
-      <label class="">
-          Похудение
-        <input class="" type="text">
-      </label>
-      <label class="">
-          Набор массы
-        <input class="" type="text">
-      </label>
-      <label class="">
-          Не знаю (Нужен ваш совет)
-        <input class="" type="text">
-      </label>
-    </section>
-    <section class="owner-contacts">
-      <span class="title">Контактные данные (владельца кота)</span>
-      <label class="">
-          E-mail:*
-        <input class="" type="text" placeholder="kuklachev@gmail.com">
-      </label>
-      <label class="">
-          Телефон:*
-        <input class="" type="text" placeholder="8 (960) 900-60-90">
-      </label>
-    </section>
-
-    <section class="comments">
-      <span class="title">Комментарий</span>
-      <label class="">
-        ИМЯ
-        <input class="" type="textarea" placeholder="Расскажите обо всех повадках кота">
-      </label>
-    </section>
-
-    <section class="extras">
-      <span class="title">Дополнительно</span>
-      <label class="">
-          Сахарозаменитель
-        <input class="" type="textarea">
-      </label>
-      <label class="">
-          Питьевая вода
-        <input class="" type="textarea">
-      </label>
-      <label class="">
-          Молоко
-        <input class="" type="textarea">
-      </label>
-      <label class="">
-          Витамины
-        <input class="" type="textarea">
-      </label>
-    </section>
-    <button class="send" type="submit">Отправить заявку</button>
-    <span class="requared-fields">* — Обязательные поля</span>
+    <form class="form">
+      <section class="form__section base-info">
+        <label class="form__label">
+            Имя:*
+          <input class="form__input" type="text" placeholder="Барсик">
+        </label>
+        <label class="form__label">
+            Вес (кг):*
+          <input class="form__input" type="text" placeholder="7">
+        </label>
+        <label class="form__label">
+            Возраст (лет):
+          <input class="form__input" type="text" placeholder="7">
+        </label>
+      </section>
+      <section class="form__section target">
+        <label class="form__label">
+          <input class="form__input" type="radio">Похудение
+        </label>
+        <label class="form__label">
+          <input class="form__input" type="radio">Набор массы
+        </label>
+        <label class="form__label">
+          <input class="form__input" type="radio">Не знаю (Нужен ваш совет)
+        </label>
+      </section>
+      <section class="form__section owner-contacts">
+        <span class="title">Контактные данные (владельца кота)</span>
+        <label class="form__label">
+            E-mail:*
+          <input class="form__input" type="text" placeholder="kuklachev@gmail.com">
+          <img class="form__icon form__icon--mail" src="https://via.placeholder.com/150x150" alt="">
+        </label>
+        <label class="form__label">
+            Телефон:*
+          <input class="form__input" type="text" placeholder="8 (960) 900-60-90">
+          <img class="form__icon form__icon--phone" src="https://via.placeholder.com/150x150" alt="">
+        </label>
+      </section>
+      <section class="form__section comments">
+        <span class="title">Комментарий</span>
+        <label class="form__label">
+          ИМЯ
+          <input class="form__input" type="textarea" placeholder="Расскажите обо всех повадках кота">
+        </label>
+      </section>
+      <section class="form__section extras">
+        <span class="title">Дополнительно</span>
+        <label class="form__label">
+          <input class="form__input" type="checkbox">Сахарозаменитель
+        </label>
+        <label class="form__label">
+          <input class="form__input" type="checkbox">Питьевая вода
+        </label>
+        <label class="form__label">
+          <input class="form__input" type="checkbox">Молоко
+        </label>
+        <label class="form__label">
+          <input class="form__input" type="checkbox">Витамины
+        </label>
+      </section>
+      <button class="send" type="submit">Отправить заявку</button>
+      <span class="requared-fields">* — Обязательные поля</span>
     </form>
-
     <div class="example__info contacts">
       <span class="contacts__inventation">приглашаем 
           к сотрудничеству 
