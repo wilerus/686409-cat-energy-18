@@ -18,42 +18,42 @@
     <h1 class="cat-title">Подбор программы</h1>
     <h2 class="cat-subtitle">Заполните анкету и мы подберем 
         программу питания для вашего кота</h2>
-    <form class="form">
+    <form class="form" action="https://echo.htmlacademy.ru">
       <section class="form__section base-info">
         <label class="form__label">
             Имя:*
-          <input class="form__input" type="text" placeholder="Барсик">
+          <input id="ownerName" name="ownerName" class="form__input" type="text" required placeholder="Барсик">
         </label>
         <label class="form__label">
             Вес (кг):*
-          <input class="form__input" type="text" placeholder="7">
+          <input id="catWeight" name="catWeight" class="form__input" type="number" required placeholder="7">
         </label>
         <label class="form__label">
             Возраст (лет):
-          <input class="form__input" type="text" placeholder="7">
+          <input id="catAge" name="catAge" class="form__input" type="number" placeholder="7">
         </label>
       </section>
       <section class="form__section target">
         <label class="form__label">
-          <input class="form__input" type="radio">Похудение
+          <input name="target" class="form__input" type="radio" value="looseWeight">Похудение
         </label>
         <label class="form__label">
-          <input class="form__input" type="radio">Набор массы
+          <input name="target" class="form__input" type="radio" value="gainWeight">Набор массы
         </label>
         <label class="form__label">
-          <input class="form__input" type="radio">Не знаю (Нужен ваш совет)
+          <input name="target" class="form__input" type="radio" value="helpMe">Не знаю (Нужен ваш совет)
         </label>
       </section>
       <section class="form__section owner-contacts">
         <span class="title">Контактные данные (владельца кота)</span>
         <label class="form__label">
             E-mail:*
-          <input class="form__input" type="text" placeholder="kuklachev@gmail.com">
+          <input id="e-mail" name="e-mail" class="form__input" type="email" required placeholder="kuklachev@gmail.com">
           <img class="form__icon form__icon--mail" src="https://via.placeholder.com/150x150" alt="">
         </label>
         <label class="form__label">
             Телефон:*
-          <input class="form__input" type="text" placeholder="8 (960) 900-60-90">
+          <input id="phone" name="phone" class="form__input" type="tel" required placeholder="8 (960) 900-60-90">
           <img class="form__icon form__icon--phone" src="https://via.placeholder.com/150x150" alt="">
         </label>
       </section>
@@ -61,28 +61,28 @@
         <span class="title">Комментарий</span>
         <label class="form__label">
           ИМЯ
-          <input class="form__input" type="textarea" placeholder="Расскажите обо всех повадках кота">
+          <textarea id="comment" name="comment" class="form__input" placeholder="Расскажите обо всех повадках кота"></textarea>
         </label>
       </section>
       <section class="form__section extras">
         <span class="title">Дополнительно</span>
         <label class="form__label">
-          <input class="form__input" type="checkbox">Сахарозаменитель
+          <input name="extraProducts" class="form__input" type="checkbox" value="sugar">Сахарозаменитель
         </label>
         <label class="form__label">
-          <input class="form__input" type="checkbox">Питьевая вода
+          <input name="extraProducts" class="form__input" type="checkbox" value="water">Питьевая вода
         </label>
         <label class="form__label">
-          <input class="form__input" type="checkbox">Молоко
+          <input name="extraProducts" class="form__input" type="checkbox" value="milk">Молоко
         </label>
         <label class="form__label">
-          <input class="form__input" type="checkbox">Витамины
+          <input name="extraProducts" class="form__input" type="checkbox" value="vita">Витамины
         </label>
       </section>
-      <button class="send" type="submit">Отправить заявку</button>
+      <input class="form__button send" type="submit" value="Отправить заявку">
       <span class="requared-fields">* — Обязательные поля</span>
     </form>
-    <div class="example__info contacts">
+    <div class="contacts">
       <span class="contacts__inventation">приглашаем 
           к сотрудничеству 
           дилеров!</span>
