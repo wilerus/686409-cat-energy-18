@@ -1,0 +1,13 @@
+.show-more {
+    display: flex;
+    flex-direction: column;
+    &__logo {
+        width: 32px;
+        height: 32px;
+        opacity: 0.2;
+    }
+
+    &__button {
+        margin-bottom: 25px;
+    }
+}
