@@ -1,0 +1,23 @@
+.cat-header {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    
+    &__menu {
+        width: 25px;
+        height: 20px;
+        border: none;
+        padding: 0;
+    }
+    &__logo {
+        width: 200px;
+    }
+    &__button-icon {
+        width: 25px;
+        height: 20px;
+    }
+}

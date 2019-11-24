@@ -1,0 +1,33 @@
+.info-article {
+    background-color: $light-grey;
+    padding: 20px;
+    margin: 20px;
+    &__header {
+        &-logo {
+            height: 50px;
+            width: 50px;
+            background-color: $leaf;
+            border-radius: 50%;
+        }
+        &-title {
+            height: 24px;
+            font-size: 24px;
+            line-height: 1.54;
+            text-align: left;
+            color: #111111;
+        }
+    }
+    &__button {
+        text-decoration: none;
+        color: #111111;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    &__button-arrow {
+        width: 25px;
+        margin-left: 12px;
+    }
+}

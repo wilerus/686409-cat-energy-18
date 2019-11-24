@@ -1,0 +1,19 @@
+.how-it-works {
+    margin: 0 20px;
+    .how-it-works__item {
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .how-it-works__logo {
+        background-color: $leaf;
+        margin-right: 20px;
+    }
+    &__title {
+        font-size: 36px;
+        line-height: 1.67;
+        text-align: left;
+        color: #111111;
+        margin-bottom: 20px;
+    }
+}

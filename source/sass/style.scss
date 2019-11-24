@@ -1,0 +1,24 @@
+$light-grey: #f2f2f2;
+$leaf: #68b738;
+
+@import './cat-header.scss';
+@import './social-buttons.scss';
+@import './info-article.scss';
+@import './how-it-works.scss';
+@import './main-section.scss';
+@import './button.scss';
+@import './cat-footer.scss';
+
+@font-face {
+    font-family: Oswalt; 
+    src: url("../fonts/oswaldregular.woff2") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+body {
+    font-family: Oswalt;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}

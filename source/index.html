@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
+    <link rel="stylesheet" href="./css/style.css"/>
   </head>
   <body>
   <header class="cat-header">
     <a class="cat-header__logo-link" href="./index.html">
-      <img class="cat-header__logo" src="https://via.placeholder.com/150x150" alt="">
+      <img class="cat-header__logo" src="./img/logo-mobile.svg" alt="">
     </a>
-    <div class="cat-header__title">CAT ENERGY</div>
     <button class="cat-header__menu" type="button">
-      <img class="cat-header__logo" src="https://via.placeholder.com/150x150" alt="">
+      <img class="cat-header__button-icon" src="./img/icon-mobile-menu.svg" alt="">
     </button>
   </header>
   <section class="main-section">
@@ -19,65 +19,73 @@
       <h1 class="main-section__title">Функциональное питание для котов</h1>
       <h2 class="main-section__subtitle">Занялся собой? Займись котом!</h2>
     </div>
-    <img class="main-section__product-preview" src="https://via.placeholder.com/150x150" alt="">
-    <a class="main-section__action" href="#info-section">Подобрать программу</a>
+    <img class="main-section__product-preview" src="./img/index-can-mobile@1x.png" alt="">
+    <a class="main-section__action button" href="#info-section">Подобрать программу</a>
   </section>
   <section class="info-section" id="info-section">
     <article class="info-section__item info-article">
       <div class="info-article__header">
-        <img class="info-article__header-logo" src="https://via.placeholder.com/150x150" alt="">
+        <img class="info-article__header-logo" src="./img/icon-cat-slim.svg" alt="">
         <span class="info-article__header-title">Похудение</span>
       </div>
       <div class="info-article__body">
         Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.
       </div>
-      <a class="info-article__button" href="./catalog.html">Каталог Slim</a>
+      <a class="info-article__button" href="./catalog.html">Каталог Slim
+        <img class="info-article__button-arrow" src="./img/icon-right-arrow-long.svg" alt="">
+      </a>
     </article>
     <article class="info-section__item info-article">
       <div class="article_header">
-        <img class="info-article__header-logo" src="https://via.placeholder.com/150x150" alt="">
+        <img class="info-article__header-logo" src="./img/icon-cat-pro.svg" alt="">
         <span class="info-article__header-title">Набор массы</span>
       </div>
       <div class="info-article__body">
         Заработать авторитет среди дворовых котов и даже собак?
         Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!
       </div>
-      <a class="info-article__button" href="./catalog.html">Каталог pro</a>
+      <a class="info-article__button" href="./catalog.html">Каталог pro
+        <img class="info-article__button-arrow" src="./img/icon-right-arrow-long.svg" alt="">
+      </a>
     </article>
   </section>
   <section class="how-it-works">
     <div class="how-it-works__title">Как это работает</div>
     <div class="how-it-works__item">
-      <img class="how-it-works__logo" src="https://via.placeholder.com/150x150" alt="">
+      <img class="how-it-works__logo" src="./img/advantage-leaf@1x.png" alt="">
       <span class="how-it-works__text">Функциональное питание содержит только полезные питательные вещества.</span>
     </div>
     <div class="how-it-works__item">
-      <img class="how-it-works__logo" src="https://via.placeholder.com/150x150" alt="">
+      <img class="how-it-works__logo" src="./img/advantage-powder@1x.png" alt="">
       <span class="how-it-works__text">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</span>
     </div>
     <div class="how-it-works__item">
-      <img class="how-it-works__logo" src="https://via.placeholder.com/150x150" alt="">
+      <img class="how-it-works__logo" src="./img/advantage-dining@1x.png" alt="">
       <span class="how-it-works__text">Замените один-два приема обычной еды на наше функциональное питание.</span>
     </div>
     <div class="how-it-works__item">
-      <img class="how-it-works__logo" src="https://via.placeholder.com/150x150" alt="">
+      <img class="how-it-works__logo" src="./img/advantage-clock@1x.png" alt="">
       <span class="how-it-works__text">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</span>
     </div>
   </section>
-  <section class="map"></section>
+  <section class="map">
+    <img src="./img/bg-map-mobile@1x.png" alt="">
+  </section>
   <footer class="cat-footer">
     <a class="cat-footer__logo-link" href="./index.html">
-      <img class="cat-footer__logo" src="https://via.placeholder.com/150x150" alt="">
+      <img class="cat-footer__logo" src="./img/logo-footer.svg" alt="">
     </a>
     <div class="cat-footer__shared-container social-buttons">
       <div class="social-buttons__item social-buttons__item--vkontakte"></div>
       <div class="social-buttons__item social-buttons__item--instagram"></div>
       <div class="social-buttons__item social-buttons__item--facebook"></div>
     </div>
-    <span class="cat-footer__academy-title">HTML Academy</span>
-    <a class="cat-footer__academy-logo-link" href="https://htmlacademy.ru/">
-      <img class="cat-footer__academy-logo" src="https://via.placeholder.com/150x150" alt="">
-    </a>
+    <div class="cat-footer__academy-wrp">
+      <div class="cat-footer__academy-title">HTML Academy</div>
+      <a class="cat-footer__academy-logo-link" href="https://htmlacademy.ru/">
+        <img class="cat-footer__academy-logo" src="./img/htmlacademy.svg" alt="">
+      </a>
+    </div>
   </footer>
   </body>
 </html>
