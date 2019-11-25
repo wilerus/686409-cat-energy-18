@@ -16,4 +16,12 @@
         color: #111111;
         margin-bottom: 20px;
     }
+    &__text {
+        font-family: Arial;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: normal;
+        text-align: left;
+        color: $greyish-brown;
+    }
 }
