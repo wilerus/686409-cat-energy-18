@@ -1,54 +1,57 @@
 .info-article {
-    background-color: $light-grey;
-    padding: 20px;
-    margin: 20px;
-    &__header {
-        display: flex;
-        align-items: center;
-        margin-bottom: 24px;
+  background-color: $light-grey;
+  padding: 20px;
+  margin: 20px;
 
-        &-logo {
-            height: 50px;
-            width: 50px;
-        }
-        &-logo-wrp {
-            height: 50px;
-            width: 50px;
-            background-color: $leaf;
-            border-radius: 50%;
-            margin-right: 20px;
-        }
-        &-title {
-            font-size: 24px;
-            line-height: 1.54;
-            text-align: left;
-            color: #111111;
-            line-height: 1.54;
-            letter-spacing: normal;
-            text-align: left;
-            color: #111111;
-            text-transform: uppercase;
-        }
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+
+    &-logo {
+      height: 50px;
+      width: 50px;
     }
-    &__button {
-        text-decoration: none;
-        color: #111111;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-        display: block;
-        width: 100%;
-        margin-top: 20px;
-        padding-top: 20px;
-        text-transform: uppercase;
+
+    &-logo-wrp {
+      height: 50px;
+      width: 50px;
+      background-color: $leaf;
+      border-radius: 50%;
+      margin-right: 20px;
     }
-    &__button-arrow {
-        width: 25px;
-        margin-left: 12px;
+
+    &-title {
+      font-size: 24px;
+      line-height: 1.54;
+      text-align: left;
+      color: #111111;
+      letter-spacing: normal;
+      text-transform: uppercase;
     }
-    &__body {
-        font-family: Arial;
-        font-size: 14px;
-        line-height: 1.29;
-        text-align: left;
-        color: $greyish-brown;
-    }
+  }
+
+  &__button {
+    text-decoration: none;
+    color: #111111;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+  }
+
+  &__button-arrow {
+    width: 25px;
+    margin-left: 12px;
+  }
+
+  &__body {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: left;
+    color: $greyish-brown;
+  }
 }

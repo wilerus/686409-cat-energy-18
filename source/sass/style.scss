@@ -1,37 +1,36 @@
-@import './variables.scss';
-
-@import './cat-header.scss';
-@import './social-buttons.scss';
-@import './info-article.scss';
-@import './how-it-works.scss';
-@import './main-section.scss';
-@import './button.scss';
-@import './cat-footer.scss';
-@import './catalog-item.scss';
-@import './show-more.scss';
-@import './info-list.scss';
-@import './catalog-title.scss';
-@import './map.scss';
+@import "./variables.scss";
+@import "./cat-header.scss";
+@import "./social-buttons.scss";
+@import "./info-article.scss";
+@import "./how-it-works.scss";
+@import "./main-section.scss";
+@import "./button.scss";
+@import "./cat-footer.scss";
+@import "./catalog-item.scss";
+@import "./show-more.scss";
+@import "./info-list.scss";
+@import "./catalog-title.scss";
+@import "./map.scss";
 
 @font-face {
-    font-family: Oswalt; 
-    src: url("../fonts/oswaldregular.woff2") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
-} 
+  font-family: "Oswalt", sans-serif;
+  src: url("../fonts/oswaldregular.woff2") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 
 body {
-    font-family: Oswalt;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
+  font-family: "Oswalt", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }

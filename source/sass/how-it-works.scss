@@ -1,27 +1,31 @@
 .how-it-works {
-    margin: 0 20px;
-    .how-it-works__item {
-        display: flex;
-        margin-bottom: 20px;
-        align-items: center;
-    }
-    .how-it-works__logo {
-        background-color: $leaf;
-        margin-right: 20px;
-    }
-    &__title {
-        font-size: 36px;
-        line-height: 1.67;
-        text-align: left;
-        color: #111111;
-        margin-bottom: 20px;
-    }
-    &__text {
-        font-family: Arial;
-        font-size: 14px;
-        line-height: 1.29;
-        letter-spacing: normal;
-        text-align: left;
-        color: $greyish-brown;
-    }
+  margin: 0 20px;
+
+  &__item {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  &__logo {
+    background-color: $leaf;
+    margin-right: 20px;
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: left;
+    color: #111111;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: $greyish-brown;
+  }
 }

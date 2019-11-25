@@ -1,24 +1,23 @@
 .button {
-    background-color: $leaf;
-    text-decoration: none;
-    height: 40px;
-    display: block;
-    text-align: center;
-    padding: 14px;
-    box-sizing: border-box;
-    color: white;
-    padding: 0;
-    margin: 0;
-    border: none;
-    line-height: 40px;
-    font-size: 14px;
+  background-color: $leaf;
+  text-decoration: none;
+  height: 40px;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  padding: 0;
+  margin: 0;
+  border: none;
+  line-height: 40px;
+  font-size: 14px;
 
-    &--pail {
-        background-color: #f2f2f2;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: normal;
-        text-align: center;
-        color: $greyish-brown;
-    }
+  &--pail {
+    background-color: #f2f2f2;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: $greyish-brown;
+  }
 }

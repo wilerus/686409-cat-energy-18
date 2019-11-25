@@ -1,19 +1,19 @@
 .catalog-item {
-    display: flex;
-    flex-wrap: wrap;
-    border-top: 1px solid $white-five;
-    padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid $white-five;
+  padding: 20px;
 
-    &__order-button {
-        width: 100%;
-        margin-bottom: 5px;
-    }
+  &__order-button {
+    width: 100%;
+    margin-bottom: 5px;
+  }
 
-    &__title {
-        text-transform: uppercase;
-    }
+  &__title {
+    text-transform: uppercase;
+  }
 
-    &__wrapper {
-        flex: 1;
-    }
+  &__wrapper {
+    flex: 1;
+  }
 }
