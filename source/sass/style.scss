@@ -1,5 +1,4 @@
-$light-grey: #f2f2f2;
-$leaf: #68b738;
+@import './variables.scss';
 
 @import './cat-header.scss';
 @import './social-buttons.scss';
@@ -10,6 +9,8 @@ $leaf: #68b738;
 @import './cat-footer.scss';
 @import './catalog-item.scss';
 @import './show-more.scss';
+@import './info-list.scss';
+@import './catalog-title.scss';
 
 @font-face {
     font-family: Oswalt; 
@@ -27,4 +28,9 @@ body {
 
 li {
     list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
