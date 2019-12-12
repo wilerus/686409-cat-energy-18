@@ -5,51 +5,51 @@
     <title>HTML Academy: Кэт энерджи</title>
   </head>
   <body>
-    <header class="cat-header">
-      <a class="cat-header__logo-link" href="./index.html">
-        <img class="cat-header__logo" src="https://via.placeholder.com/150x150" alt="">
+    <header class="product-header">
+      <a class="product-header__logo-link" href="./index.html">
+        <img class="product-header__logo" src="https://via.placeholder.com/150x150" alt="">
       </a>
-      <div class="cat-header__title">CAT ENERGY</div>
-      <button class="cat-header__menu" type="button">
-        <img class="cat-header__logo" src="https://via.placeholder.com/150x150" alt="">
+      <div class="product-header__title">CAT ENERGY</div>
+      <button class="product-header__menu" type="button">
+        <img class="product-header__logo" src="https://via.placeholder.com/150x150" alt="">
       </button>
     </header>
     <h1 class="cat-title">Подбор программы</h1>
     <h2 class="cat-subtitle">Заполните анкету и мы подберем программу питания для вашего кота</h2>
     <form class="form" action="https://echo.htmlacademy.ru">
       <section class="form__section base-info">
-        <label class="form__label">
+        <label class="form__label" for="ownerName">
             Имя:*
           <input id="ownerName" name="ownerName" class="form__input" type="text" required placeholder="Барсик">
         </label>
-        <label class="form__label">
+        <label class="form__label" for="catWeight">
             Вес (кг):*
           <input id="catWeight" name="catWeight" class="form__input" type="number" required placeholder="7">
         </label>
-        <label class="form__label">
+        <label class="form__label" for="catAge">
             Возраст (лет):
           <input id="catAge" name="catAge" class="form__input" type="number" placeholder="7">
         </label>
       </section>
       <section class="form__section target">
-        <label class="form__label">
-          <input name="target" class="form__input" type="radio" value="looseWeight">Похудение
+        <label class="form__label" for="looseWeight">
+          <input id="looseWeight" name="target" class="form__input" type="radio" value="looseWeight">Похудение
         </label>
-        <label class="form__label">
-          <input name="target" class="form__input" type="radio" value="gainWeight">Набор массы
+        <label class="form__label" for="gainWeight">
+          <input id="gainWeight" name="target" class="form__input" type="radio" value="gainWeight">Набор массы
         </label>
-        <label class="form__label">
-          <input name="target" class="form__input" type="radio" value="helpMe">Не знаю (Нужен ваш совет)
+        <label class="form__label" for="helpMe">
+          <input id="helpMe" name="target" class="form__input" type="radio" value="helpMe">Не знаю (Нужен ваш совет)
         </label>
       </section>
       <section class="form__section owner-contacts">
         <span class="form__section-title">Контактные данные (владельца кота)</span>
-        <label class="form__label">
+        <label class="form__label" for="e-mail">
             E-mail:*
           <input id="e-mail" name="e-mail" class="form__input" type="email" required placeholder="kuklachev@gmail.com">
           <img class="form__icon form__icon--mail" src="https://via.placeholder.com/150x150" alt="">
         </label>
-        <label class="form__label">
+        <label class="form__label" for="phone">
             Телефон:*
           <input id="phone" name="phone" class="form__input" type="tel" required placeholder="8 (960) 900-60-90">
           <img class="form__icon form__icon--phone" src="https://via.placeholder.com/150x150" alt="">
@@ -57,24 +57,24 @@
       </section>
       <section class="form__section comments">
         <span class="form__section-title">Комментарий</span>
-        <label class="form__label">
+        <label class="form__label" for="comment">
           ИМЯ
           <textarea id="comment" name="comment" class="form__input" placeholder="Расскажите обо всех повадках кота"></textarea>
         </label>
       </section>
       <section class="form__section extras">
         <span class="form__section-title">Дополнительно</span>
-        <label class="form__label">
-          <input name="extraProducts" class="form__input" type="checkbox" value="sugar">Сахарозаменитель
+        <label class="form__label" for="sugar">
+          <input id="sugar" name="extraProducts" class="form__input" type="checkbox" value="sugar">Сахарозаменитель
         </label>
-        <label class="form__label">
-          <input name="extraProducts" class="form__input" type="checkbox" value="water">Питьевая вода
+        <label class="form__label" for="water">
+          <input id="water" name="extraProducts" class="form__input" type="checkbox" value="water">Питьевая вода
         </label>
-        <label class="form__label">
-          <input name="extraProducts" class="form__input" type="checkbox" value="milk">Молоко
+        <label class="form__label" for="milk">
+          <input id="milk" name="extraProducts" class="form__input" type="checkbox" value="milk">Молоко
         </label>
-        <label class="form__label">
-          <input name="extraProducts" class="form__input" type="checkbox" value="vita">Витамины
+        <label class="form__label" for="vita">
+          <input id="vita" name="extraProducts" class="form__input" type="checkbox" value="vita">Витамины
         </label>
       </section>
       <input class="form__button send" type="submit" value="Отправить заявку">
@@ -85,18 +85,18 @@
       <span class="contacts__place">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</span>
     </div>
     <section class="map"></section>
-    <footer class="cat-footer">
-      <a class="cat-footer__logo-link" href="./index.html">
-        <img class="cat-footer__logo" src="https://via.placeholder.com/150x150" alt="">
+    <footer class="product-footer">
+      <a class="product-footer__logo-link" href="./index.html">
+        <img class="product-footer__logo" src="https://via.placeholder.com/150x150" alt="">
       </a>
-      <div class="cat-footer__shared-container social-buttons">
+      <div class="product-footer__shared-container social-buttons">
         <div class="social-buttons__item social-buttons__item--vkontakte"></div>
         <div class="social-buttons__item social-buttons__item--instagram"></div>
         <div class="social-buttons__item social-buttons__item--facebook"></div>
       </div>
-      <span class="cat-footer__academy-title">HTML Academy</span>
-      <a class="cat-footer__academy-logo-link" href="https://htmlacademy.ru/">
-        <img class="cat-footer__academy-logo" src="https://via.placeholder.com/150x150" alt="">
+      <span class="product-footer__academy-title">HTML Academy</span>
+      <a class="product-footer__academy-logo-link" href="https://htmlacademy.ru/">
+        <img class="product-footer__academy-logo" src="https://via.placeholder.com/150x150" alt="">
       </a>
     </footer>
   </body>
